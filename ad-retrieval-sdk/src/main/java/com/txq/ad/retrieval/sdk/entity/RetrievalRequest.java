@@ -15,10 +15,12 @@ public class RetrievalRequest {
     private String scorer;
     private Integer topn;                   // 基础队列长度, 不包含额外配额, 对应mixer中的GroupedTopn
     private SystemInfo systemInfo;
+    private TargetingContext targetingContext;
 
 
     @Data
-    public  class SystemInfo {
+    public static class SystemInfo {
         private boolean isUseTargetingSearchCache;
+        private boolean isForceCall;
     }
 }

@@ -12,8 +12,17 @@ public class RetrievalRequestFormatter {
 
     public static void format(RetrievalRequest request) {
 
+        // 填充query定向参数
+        formatQuery(request);
         // 根据配置设置参数
         formatParamsByConfig(request);
+    }
+
+    private static void formatQuery(RetrievalRequest request) {
+        if (request.getTargetingContext() == null) {
+            return;
+        }
+        System.out.println("");
     }
 
     private static void formatParamsByConfig(RetrievalRequest request) {
