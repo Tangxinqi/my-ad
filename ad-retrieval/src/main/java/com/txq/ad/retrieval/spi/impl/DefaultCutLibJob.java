@@ -22,6 +22,7 @@ public class DefaultCutLibJob extends AbstractCutLibJob {
 
     @Override
     protected void doWork(RetrievalRequest request, SunfishThirdContext sunfishThirdContext, GlobalObject object, IndexTuple indexTuple) {
+        // TODO SplitTestFunctor.doSplit需要在研究下功能
 
     }
 
