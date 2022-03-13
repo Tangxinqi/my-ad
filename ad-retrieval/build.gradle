@@ -3,6 +3,6 @@ plugins {
 }
 
 dependencies {
-    api(project(":ad-retrieval-sdk"))
+    api(project(":ad-common-sdk"))
     testCompileOnly "junit:junit:4.12"
 }

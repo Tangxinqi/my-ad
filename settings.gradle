@@ -9,7 +9,9 @@
 
 rootProject.name = 'my-ad'
 include 'ad-retrieval'
-include 'ad-retrieval-sdk'
+include 'ad-common-sdk'
 include 'ad-display'
 include 'ad-mixer'
+include 'ad-scoring'
+include 'ad-reranking'
 

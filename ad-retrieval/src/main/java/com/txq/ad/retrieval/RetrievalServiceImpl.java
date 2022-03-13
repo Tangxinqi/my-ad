@@ -1,8 +1,8 @@
 package com.txq.ad.retrieval;
 
-import com.txq.ad.retrieval.sdk.entity.RetrievalRequest;
-import com.txq.ad.retrieval.sdk.entity.RetrievalResponse;
-import com.txq.ad.retrieval.sdk.service.RetrievalService;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalRequest;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalResponse;
+import com.txq.ad.common.sdk.retrieval.service.RetrievalService;
 
 /**
  * @author xinqitang

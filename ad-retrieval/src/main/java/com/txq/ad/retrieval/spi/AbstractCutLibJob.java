@@ -4,7 +4,7 @@ import com.txq.ad.retrieval.entity.CutLibQueryContext;
 import com.txq.ad.retrieval.entity.GlobalObject;
 import com.txq.ad.retrieval.entity.IndexTuple;
 import com.txq.ad.retrieval.entity.SunfishThirdContext;
-import com.txq.ad.retrieval.sdk.entity.RetrievalRequest;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalRequest;
 
 /**
  * @author xinqitang

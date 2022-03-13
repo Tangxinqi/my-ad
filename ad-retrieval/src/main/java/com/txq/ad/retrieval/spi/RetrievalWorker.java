@@ -1,8 +1,8 @@
 package com.txq.ad.retrieval.spi;
 
 import com.txq.ad.retrieval.entity.IndexTuple;
-import com.txq.ad.retrieval.sdk.entity.RetrievalRequest;
-import com.txq.ad.retrieval.sdk.entity.RetrievalResponse;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalRequest;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalResponse;
 
 /**
  * @author xinqitang

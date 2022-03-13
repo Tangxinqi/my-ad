@@ -1,7 +1,7 @@
 package com.txq.ad.retrieval.util;
 
 import com.txq.ad.retrieval.Configs;
-import com.txq.ad.retrieval.sdk.entity.RetrievalRequest;
+import com.txq.ad.common.sdk.retrieval.entity.RetrievalRequest;
 import org.apache.commons.lang3.StringUtils;
 
 /**

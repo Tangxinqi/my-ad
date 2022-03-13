@@ -1,4 +1,4 @@
-package com.txq.ad.retrieval.sdk.entity;
+package com.txq.ad.common.sdk.retrieval.entity;
 
 import lombok.Data;
 
