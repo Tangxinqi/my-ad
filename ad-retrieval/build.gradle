@@ -2,11 +2,7 @@ plugins {
     id 'java'
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    compile(project(":ad-retrieval-sdk"))
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    api(project(":ad-retrieval-sdk"))
+    testCompileOnly "junit:junit:4.12"
 }
